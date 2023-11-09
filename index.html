@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #img1{
+            width: 10%;
+            height: 10%;
+            border-radius: 10px;
+        }
+        img{
+            width: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- ----------Q 1----- -->
+    <a href="" onclick="link()">Click The Link</a>
+    <br> <br> <br>
+    <!-- --------Q 2------- -->
+    <h4>Mobile Phone Lookup</h4>
+    <img id="img1" onclick="img()" src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vYmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+
+    <img id="img1" onclick="img()" src="https://img.etimg.com/photo/msid-101297745,imgsize-63600/OnePlus11R5G.jpg" alt="">
+
+    <img id="img1" onclick="img()" src="https://thumbs.dreamstime.com/b/varna-bulgaria-february-studio-shot-huawei-mate-pro-twilight-smartphone-mp-f-mm-leica-optics-octa-core-pixels-139213895.jpg" alt="">
+
+    <img id="img1" onclick="img()" src="https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1686540806121/2ad5194743bbf2f8dd064ef1ba0502a4.png" alt="">
+    <br> <br> <br>
+
+     <!-- ---------Q 3----- -->
+     <table>
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+    </table>
+
+    <!-- -----------Q 4------------ -->
+
+    <br> <br>
+     <img id="over"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkzAgJ1_r_F3Ln-QtrAVhn5UWSwzpM0G-ePF3-Q-0&s"
+      alt=""
+      onmouseover="src='https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhcnN8ZW58MHx8MHx8fDA%3D'"
+      onmouseout="src='https://images.unsplash.com/photo-1595925889916-2a1d773a0613?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8&w=1000&q=80'"/>
+
+
+      <!-- ------------Q 5----------------- -->
+
+      <h1>Counter: <span id="counter">0</span></h1>
+    <button id="increaseButton" onclick="increaseCounter()">Increase</button>
+    <button id="decreaseButton" onclick="decreaseCounter()">Decrease</button>
+    <h2>Updated Counter: <span id="updatedCounter">0</span></h2>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
